@@ -1,0 +1,19 @@
+{
+  "name": "flipvideowasm",
+  "version": "1.0.0",
+  "description": "Flips a video horizontally",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build"
+  },
+  "author": "Sang Han",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.2.11"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1"
+  }
+}
